@@ -1,0 +1,94 @@
+
+body{
+    border: 0ch;
+    margin: 0ch;
+}
+.container{
+    display: flex;
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+}
+
+.flex-container {
+display: flex;
+flex-wrap: nowrap;
+background-color: rgb(0, 0, 0);
+}
+
+.flex-container .left {
+background-color: rgb(248, 126, 13);
+width: 100px;
+margin: 70px;
+text-align: center;
+line-height: 25px;
+font-size: 15px;
+}
+.flex-container .right {
+    position: absolute;
+    right: 10px;
+    background-color: rgb(248, 126, 13);
+    width: 100px;
+    margin: 70px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+    }
+
+.flex-container .bottom {
+    color: white;
+    width: 100px;
+    margin: 150px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+    }
+
+.search{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    width: 200;
+    height: 400;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    width: 200;
+    height: 400;
+}
+
+.products > div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(248, 126, 13);
+    background-color: rgb(0, 0, 0);
+    width: 200;
+    height: 400;
+}
+
+span{
+    color: white;
+     margin: 20px;
+}
+img{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin: 40px;
+}
+
+.search > div{
+    background-color: rgb(248, 126, 13);
+    width: 100px;
+    margin: 40px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+}
